@@ -11,7 +11,7 @@ key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=key)
 
 # Set up the Streamlit app
-st.title("Image Vision Tool")
+st.title("Question Tool")
 st.subheader("Just Ask ")
 #st.write("Upload an image or enter a URL to get a description.")
 
